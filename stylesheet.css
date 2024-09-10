@@ -1,0 +1,377 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+    
+}
+.tags li {
+    display: inline;
+    float: right;
+    list-style: none;
+    text-transform: uppercase;
+
+  
+    padding: 30px;
+    align-items: center;
+
+}
+.tags li a {
+    text-decoration: none;
+    transition:0.8s;
+
+
+}
+.tags li a:hover {
+    color: gold;
+
+}
+
+.tags {
+    padding-left: 0;
+
+}
+.h1 {
+    padding: 5px;
+    
+}
+.main {
+    padding: 15px;
+    align-items: center;
+    float: left;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition:1s;
+    
+}
+.main:hover {
+    color: gold;
+}
+
+.today {
+    transition:0.7s;
+}
+.today:hover {
+    color: gold;
+}
+.bottom {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bigphoto2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    
+    
+    
+
+}
+#middle_text {
+    text-transform: uppercase;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+   font-family: sans-serif;
+  
+}
+#middle2 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    font-family: sans-serif;
+    
+   
+  
+}
+#desc {
+    text-align: center;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    
+    
+}
+#join_now {
+   display: block;
+   margin: auto;
+   padding: 9px;
+   color: white;
+   border-radius: 7px;
+   background-color: gold;
+   cursor: pointer;
+   border: none;
+   transition:1s;
+   font-family: sans-serif;
+   font-size: 18px;
+   margin-top: 319px;
+ 
+}
+#join_now:hover {
+    color: #323232;
+}
+.About_Us {
+    margin: 40px;
+    padding: 10px;
+}
+.Find_Out {
+    color: gold;
+    text-transform: uppercase;
+}
+.title1 {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.detail1 {
+    margin-left: 10px;
+    
+    
+}
+.table1 {
+    height: 40%;
+    margin-left: 10px;
+
+}
+.table1 td {
+    padding: 20px;
+}
+#cbum1 {
+    border-radius: 10px;
+}
+
+.Looks_Like {
+    margin: 35px;
+    padding: 5px;
+    text-transform: uppercase;
+    color: gold;
+    margin-top: 10px;
+}
+.title2 {
+    padding: 40px;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-right: 2px;   
+   
+}
+.photos {
+    margin-left: 25px;
+}
+.photos td {
+    padding: 33px;
+}
+.Gallery {
+    margin-bottom: 55px;
+}
+#interior {
+    border-radius: 10px;
+}
+#racks {
+    border-radius: 10px;
+}
+#locker_room {
+    border-radius: 10px;
+}
+.SeeMore {
+    float: right;
+    padding: 11px;
+    color: gold;  
+    
+}
+.SeeMore a {
+    text-decoration: none;
+    color: gold;
+}
+.Experience {
+    padding: 10px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    color: gold;
+    margin-left: 30px;
+}
+.title3 {
+    padding: 10px;
+    margin-left: 35px;
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+.TrainersTable {
+    padding: 35px;
+    margin-left: 45px;
+}
+.TrainersTable td {
+    padding: 35px;
+    border-bottom: 1px solid gold;
+   
+}
+#ibra {
+    border-radius: 20px;
+    
+}
+/* to make photo pop up */
+#ibra:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#trainer1 {
+    border-radius: 20px;
+}
+/* to make photo pop up */
+#trainer1:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+#ibraTitle {
+    font-size: 25px;
+    color: gold;
+    
+}
+#BenTitle {
+    font-size: 25px;
+    color: gold;
+}
+#trainer2 {
+    border-radius: 20px;
+}
+/* to make photo pop up */
+#trainer2:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+#MathTitle {
+    font-size: 25px;
+    color: gold;
+}
+.affordable {
+    padding: 10px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    color: gold;
+    margin-left: 30px;
+}
+.title4 {
+    padding: 10px;
+    margin-left: 35px;
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10px;
+
+  }
+  
+  
+  .pricing-column {
+    width: 30%;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+ 
+  .pricing-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  
+  .pricing-header h2 {
+    font-size: 28px;
+    margin-top: 0;
+  }
+  
+ 
+  .pricing-header .price {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  
+  
+  .features {
+    
+    padding: 0;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  
+  .features li {
+    margin-bottom: 10px;
+    list-style: circle;
+    
+  }
+  
+  .button {
+    display: block;
+   margin: auto;
+   padding: 9px;
+   color: white;
+   border-radius: 7px;
+   background-color: gold;
+   cursor: pointer;
+   border: none;
+   transition:1s;
+   font-family: sans-serif;
+   font-size: 20px;
+   width: 150px;
+  }
+  
+  .button:hover {
+    color: #323232 ;
+  }
+  a {
+    text-decoration: none;
+  }
+  .footer {
+    width: 100%;
+    text-align: center;
+    background-color: #323232;
+  }
+  .SocialMedia{
+    padding: 5px;
+    margin-bottom: 15px;
+    
+  }
+  .Support a {
+    text-decoration: underline;
+    color: gold;  
+    padding: 4px;
+}
+.Terms a {
+    text-decoration: underline;
+    color: gold; 
+}
+.CopyRight {
+    padding: 6px;
+   font-size: small;
+}
+@media screen and (max-width:480px) {
+   
+    
+}

@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: black;
+    padding: 10px;
+    margin-left: 20px;
+}
+.title2 {
+    font-size: 65px;
+}
+.title {
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0.8s;
+}
+.title:hover {
+    color: gold;
+}
+.h2 {
+    color: gold;
+}
+.h3 {
+    color: beige;
+}
+body ul {
+    list-style: circle;
+
+}
+body li {
+    padding: 10px;
+}
